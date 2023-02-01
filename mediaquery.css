@@ -1,0 +1,23 @@
+@media (max-width:393px){
+ .name{
+     display:grid;
+     grid-template-columns: 1fr;
+ }
+
+ .card-section{
+     flex-direction: column;
+     
+ }
+ .nav-2{
+    display: flex !important;
+    justify-content: space-around !important;
+    border-bottom: 1px solid gray;
+    
+}
+.nav-1{
+    display: none !important;
+}
+#carouselExampleCaptions{
+    margin:0px;
+}
+}

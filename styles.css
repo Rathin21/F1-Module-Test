@@ -1,0 +1,31 @@
+/* .page{
+    display: grid;
+} */
+.nav-1{
+    border-bottom: 1px solid gray;
+}
+.card-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.table-section{
+    display: flex;
+}
+
+input{
+    padding-top: 3px;;
+}
+.form-section{
+    display:grid;
+    padding:10px 20px;
+}
+
+.name{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.nav-2{
+    display: none !important;
+}
